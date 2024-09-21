@@ -1,7 +1,7 @@
 :root {
     --main-color: #ff7200;
     --black: #05050a;
-    --bg: #000000;
+    --bg: #f5f0f0;
     --border: .1rem solid rgba(255, 255, 255, .3);
 }
 
@@ -47,7 +47,7 @@ section {
 
 .heading {
     text-align: center;
-    color: #fff;
+    color: #080808;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
@@ -63,7 +63,7 @@ section {
     display: inline-block;
     padding: .9rem 3rem;
     font-size: 1.7rem;
-    color: #fff;
+    color: #f5f2f2;
     background: var(--main-color);
     cursor: pointer;
 }
@@ -94,7 +94,7 @@ section {
 .header .navbar a {
     margin: 0 1rem;
     font-size: 1.6rem;
-    color: #fff;
+    color: #0c0c0c;
 }
 
 .header .navbar a:hover {
@@ -137,7 +137,7 @@ section {
 .about .row {
     display: flex;
     align-items: center;
-    background: var(--black);
+    background: white;
     flex-wrap: wrap;
 }
 
@@ -156,12 +156,12 @@ section {
 
 .about .row .content h3 {
     font-size: 3rem;
-    color: #fff;
+    color: #0a0a0a;
 }
 
 .about .row .content p {
     font-size: 1.5rem;
-    color: #ccc;
+    color: #111010;
     padding: 1rem 0;
     line-height: 1.8;
 }
@@ -192,7 +192,7 @@ section {
 }
 
 .menu .box-container .box .price {
-    color: #fff;
+    color: #0a0a0a;
     font-size: 2.5rem;
     padding: .5rem 0;
 }
@@ -220,7 +220,7 @@ section {
 }
 
 #menup {
-    color: aliceblue;
+    color: rgb(7, 7, 7);
     font-size: 14px;
     text-transform: lowercase;
 }
@@ -398,7 +398,6 @@ section {
 .flex-container>div img {
     height: 270px;
     margin-right: 20px;
-    margin-left: 20px;
     max-width: 100%;
 }
 
